@@ -1,0 +1,31 @@
+.contenedor-peliculas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenedor-pelicula{
+    /* border: 1px solid lightseagreen;
+    margin-bottom:  1rem;
+    padding: 1rem; */
+    margin-right: 2%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p{
+    max-width: 225px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+img{
+    width: 225px;
+    height: 300px;
+}
+
+button{
+    margin-left: 1em;
+}

@@ -1,0 +1,19 @@
+<app-menu></app-menu>
+
+<div class="contenedor"> 
+  <!-- <p>Hola mundo</p>
+  <app-rating [maximoRating]="5" (rated)="manejarRated($event)"></app-rating> -->
+  <div>
+    {{title}}
+  </div>
+  <h3>Peliculas en cartelera</h3>
+  <app-listado-peliculas [peliculas]="peliculasEnCines"></app-listado-peliculas>
+
+  <h3>Peliculas </h3>
+  <app-listado-peliculas [peliculas]="peliculasProximosEstrenos"></app-listado-peliculas>
+</div>
+
+<!-- Variable de referencia de plantilla -->
+<!-- <input type="file" style="display: none;" #cargador>
+
+<button (click)="cargador.click()">Carga archivo</button> -->
