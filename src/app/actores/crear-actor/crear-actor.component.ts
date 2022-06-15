@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { actorCreacionDto } from '../actor';
 
 @Component({
   selector: 'app-crear-actor',
@@ -12,4 +13,7 @@ export class CrearActorComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  guardar( actor: actorCreacionDto){
+    console.log(actor);
+  }
 }
